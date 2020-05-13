@@ -6,10 +6,10 @@ const greeting = {
   username: "Oriol Paricio",
   title: "Hola, soy Oriol",
   subTitle: emoji(
-    "Soy una persona resolutiva, con gran capacidad de adaptación y trabajo en equipo, y me motiva emprender nuevos proyectos."
+    "Soy una persona resolutiva, con gran capacidad de adaptación en el trabajo en equipo y motivación para emprender nuevos proyectos."
   ),
-  subTitle3: emoji(
-    "Estoy especializado en desarrollo Front End en formato escritorio y responsive, me apasiona todo lo digital y me gusta estar siempre actualizado para así seguir creciendo y desarrollándome."
+  subTitle2: emoji(
+    "Me especializo en desarrollo Front End en formato escritorio y responsive, me apasiona todo lo digital y me gusta estar siempre actualizado para seguir desarrollándome profesionalmente."
   ),
   resumeLink:
     "https://www.canva.com/design/DAD3oHPWaeg/IYrS5uOzhKmsGh-1ow41VA/view?utm_content=DAD3oHPWaeg&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton",

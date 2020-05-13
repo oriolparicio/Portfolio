@@ -18,13 +18,12 @@ export default function Greeting() {
                 {greeting.title}{" "}
                 {/* <span className="wave-emoji">{emoji("👋")}</span> */}
               </h1>
-              <p className="greeting-text-p subTitle">
-                {greeting.subTitle}
-                <br />
+              <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
+              <p
+                className="greeting-text-p subTitle"
+                style={{ fontSize: "1.4em" }}
+              >
                 {greeting.subTitle2}
-                <br />
-                <br />
-                {greeting.subTitle3}
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
