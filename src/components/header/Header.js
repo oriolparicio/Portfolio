@@ -8,10 +8,16 @@ function Header() {
     <Fade top duration={1000} distance="20px">
       <div>
         <header className="header">
-          <a href="" className="logo">
+          <a
+            href="https://github.com/oriolparicio"
+            target="_blank"
+            className="logo"
+          >
             <span className="grey-color"> &lt;</span>
             <span className="logo-name">
-              <i class="fas fa-home"></i>
+              <div className="logo-name-container">
+                <div className="gitHubLogo"></div>
+              </div>
             </span>
             <span className="grey-color">/&gt;</span>
           </a>
