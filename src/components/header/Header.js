@@ -27,10 +27,10 @@ function Header() {
           </label>
           <ul className="menu">
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills">Experiencia</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects">Proyectos</a>
             </li>
           </ul>
         </header>
