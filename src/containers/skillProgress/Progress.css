@@ -1,0 +1,147 @@
+.meter {
+    height: 20px;
+    position: relative;
+    background: rgb(243, 239, 239);
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.meter>span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #aaa5ff;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+
+.meter>span:hover {
+    background: linear-gradient(270deg, #55198b, #aaa5ff);
+    background-size: 400% 400%;
+
+    -webkit-animation: ProgressBarGradient 4s ease infinite;
+    -moz-animation: ProgressBarGradient 4s ease infinite;
+    -o-animation: ProgressBarGradient 4s ease infinite;
+    animation: ProgressBarGradient 4s ease infinite;
+}
+
+/* GRADIENT ANIMATION */
+@-webkit-keyframes ProgressBarGradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes ProgressBarGradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-o-keyframes ProgressBarGradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes ProgressBarGradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+.skill {
+    line-height: 3.5vw;
+}
+
+.skill-bars {
+    font-size: 28px;
+    width: 40%;
+}
+
+.skills-container {
+    display: flex;
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+}
+
+.skills-container>* {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.skills-image>img {
+    margin-left: 80px;
+    max-width: 90%;
+    height: auto;
+}
+
+/* Media Query */
+
+@media (max-width: 1456px) {
+    .skills-bar {
+        line-height: 4rem;
+    }
+
+    .skills-image {
+        display: none;
+        order: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column
+    }
+
+    .skills-bar {
+        line-height: 3rem;
+        margin: 20px;
+    }
+
+    .skills-image {
+        display: none;
+        order: 2;
+    }
+}
