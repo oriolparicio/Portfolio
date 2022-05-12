@@ -32,7 +32,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: 'About Me',
-  subTitle: 'FULL STACK DEVELOPER "MERN" FOCUSED ON FRON END',
+  subTitle: 'FULL STACK DEVELOPER "MERN" FOCUSED ON FRONT END',
 
   softwareSkills: [
     {
@@ -77,7 +77,7 @@ const techStack = {
     },
     {
       Stack: 'Backend',
-      progressPercentage: '40%',
+      progressPercentage: '65%',
     },
   ],
 };
